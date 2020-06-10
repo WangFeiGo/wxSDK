@@ -1,0 +1,8 @@
+<!--logs.wxml-->
+<view>
+  
+    <button  data-type="button" id="test" data-name="test" class="user-motto" bindtap="buttonClick" >轻触按钮</button>
+    <view  class="testbtn" id="test2" data-content="测试"  bindtap="buttonClick" bindlongpress="handleView">长按按钮</view>
+    <button  data-type="button" id="testother" data-name="testbtn"  bindtap="buttonClickOther" >点击触发other事件</button>
+   
+</view>

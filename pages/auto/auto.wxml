@@ -1,0 +1,5 @@
+<!--pages/auto/auto.wxml-->
+<text>全埋点</text>
+<button  id="test" data-name="testName" class="user-motto" bindtap="buttonClick" >轻触按钮</button>
+<view  id="testBtn" data-name="testBtnName"   class="testbtn"  bindlongpress="handleView">长按按钮</view>
+  

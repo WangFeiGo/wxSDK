@@ -1,0 +1,13 @@
+
+.user-motto{
+  float: left;
+}
+.wrap{
+  width: 300px;
+  height: 300px;
+}
+
+.testbtn{
+  background: pink;
+  width: 200rpx;
+}

@@ -1,0 +1,16 @@
+<!--index.wxml-->
+<view class="container">
+	<view class="userinfo"  wx:if="{{isLogin==false}}">
+		<input type="text" bindinput="getUserName" placeholder="请输入账号："></input>
+		<button open-type="getUserInfo" bindgetuserinfo="getUserInfo" bindtap="doLogin">登录</button>
+	</view>
+	<view wx:if="{{isLogin==true}}">
+		用户名：admin
+	</view>
+  <button wx:if="{{isLogin==true}}" bindtap="doLoginOut">退出登录</button>
+</view>
+	<!-- <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo" bindtap="doLogin">授权 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block> -->
